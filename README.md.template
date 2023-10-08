@@ -1,3 +1,6 @@
 Irfan Balghari 
 
 {{ template "daily-table" .Weathers }}
+{{ template "hourly-table" $todayWeather.HourlyWeathers }}
+
+{{ formatTime .UpdatedAt }}
